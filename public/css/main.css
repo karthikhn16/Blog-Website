@@ -1,0 +1,196 @@
+/* main.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333; /* Dark gray text color */
+}
+
+.navbar {
+  background-color: #555; /* Dark gray navbar background */
+  overflow: hidden;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+}
+
+.nav-item a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  background-color: #777; /* Slightly lighter on hover */
+  color: #fff;
+}
+
+.nav-item a.active {
+  background-color: #777;
+  color: #fff;
+}
+
+.header {
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+form {
+  margin: 0 auto;
+  width: 45%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form label,
+form textarea,
+form input[type="text"],
+form input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form input[type="file"] {
+  border: 2px solid #ccc;
+  background-color: #f8f8f8;
+  padding: 10px;
+  font-style: italic;
+}
+
+form input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.saved-content {
+  width: 45%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li img, li video {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Add this CSS for the blog layout */
+.blog {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 auto; /* Added to horizontally center the blog card */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 80%; 
+  box-sizing: border-box;
+  
+}
+
+.blog img {
+  max-width: 100%;
+  max-height: 300px; /* Increased max-height for larger image */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Custom color scheme for headers and links */
+.blog h2 {
+  color: #0b0c0c; /* Blue header */
+  font-size: 38px;
+  margin-bottom: 10px;
+  font-weight: bolder ;
+}
+
+.blog a {
+  color: #555; /* Dark gray links */
+  text-decoration: none;
+}
+
+.blog a:hover {
+  text-decoration: underline;
+}
+
+/* Custom font styles */
+.blog-content p .blogpara{
+  font-size: 25px; /* Adjust font size as needed */
+  line-height: 1.6;
+  margin-bottom: 15px; /* Increased spacing between paragraphs */
+  color: #944b4b;
+  text-align: justify; /* Justify text for a clean look */
+
+}
+.blogpara{
+  font-size: 20px; /* Adjust font size as needed */
+  line-height: 1.6;
+  margin-bottom: 15px; /* Increased spacing between paragraphs */
+  color: #555;
+  text-align: justify; /* Justify text for a clean look */
+  font-weight: bolder;
+}
+
+/* Custom style for the heading "All Blogs" */
+.custom-header h1 {
+  font-size: 42px; /* Increased font size */
+  color: #5a3a37; /* Custom color */
+  font-style: italic; /* Italicized text */
+  justify-content:center;
+  margin-left: 30%;
+}
