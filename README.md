@@ -12,27 +12,27 @@ Welcome to The Mighty Karthik's Blog Website! This web application, powered by N
    git clone https://github.com/yourusername/blog-website.git
 cd blog-website
 ## Installation instructions
-cd blog-website
-npm install
+cd blog-website<br>
+npm install<br>
 node index.js
 ## Features
-View Blogs: Explore existing blogs with ease.
-Create a New Blog:
-Click on the "New Blog" button.
-Add a title, content, and upload images for your blog.
-Hit the "Publish" button to share your masterpiece.
+View Blogs: Explore existing blogs with ease.<br>
+Create a New Blog:<br>
+Click on the "New Blog" button.<br>
+Add a title, content, and upload images for your blog.<br>
+Hit the "Publish" button to share your masterpiece.<br>
 
 ## Project Structure
-/public: Contains static assets like stylesheets and client-side JavaScript.
-/views: EJS templates for rendering HTML pages.
-/routes: Express route handlers.
+/public: Contains static assets like stylesheets and client-side JavaScript.<br>
+/views: EJS templates for rendering HTML pages.<br>
+/routes: Express route handlers.<br>
 index.js: The main entry point of the application.
 
 ## Technologies Used
-Node.js: A JavaScript runtime for server-side development.
-Express: A web application framework for Node.js.
-EJS (Embedded JavaScript): A templating engine for rendering dynamic content.
-CSS: Styling for a visually appealing user interface.
+Node.js: A JavaScript runtime for server-side development.<br>
+Express: A web application framework for Node.js.<br>
+EJS (Embedded JavaScript): A templating engine for rendering dynamic content.<br>
+CSS: Styling for a visually appealing user interface.<br>
 JavaScript: Client-side scripting for interactive features.
 
 
